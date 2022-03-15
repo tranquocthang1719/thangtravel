@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+* {  box-sizing: border-box; outline: none}
+.container {width: 80%; margin: auto;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+/*  border: 1px solid red;*/
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.border{ border: 1px solid #ff0}
+.img-100{ width: 100%; height: auto}
+.img-circle{ border-radius: 50%}
+
+.w-25{ width: 25%} .w-50{ width: 50%}.w-75{ width: 75%}.w-100{ width: 100%}
+.ml-10{ margin-left: 10px} .ml-15{ margin-left: 15px}
+.mr-10{ margin-right: 10px} .mr-15{ margin-right: 15px}
+.mx-10{ margin-left: 10px; margin-right: 10px} .mx-15{ margin-left: 15px;margin-right: 15px}
+.my-10{ margin-top: 10px; margin-bottom: 10px} .my-15{ margin-top: 15px;margin-bottom: 15px}
+.mt-40{ margin-top: 40px}
+.mx-auto{ margin-left: auto; margin-right: auto}
+.pt-50{ padding-top: 50px} .pb-50{ padding-bottom: 50px}.py-50{ padding-bottom: 50px; padding-top: 50px}
+.py-20{ padding-bottom: 20px; padding-top: 20px} .pt-20{ padding-top: 20px}
+.pl-15{ padding-left: 15px} .pr-15{ padding-right: 15px} .px-15{ padding-left: 15px; padding-right: 15px}
+.p-15{ padding: 15px}
+
+
+.d-flex{ display: flex; flex-wrap: wrap}
+.d-flex1{ display: flex;}
+.justify-center{ justify-content: center}
+.justify-between{ justify-content: space-between}
+.justify-around{ justify-content: space-around}
+.justify-end{ justify-content: flex-end}
+.justify-start{ justify-content: flex-start}
+/*-- -----viết trên box mẹ có display flex----------*/
+.align-center{ align-items:  center}
+.align-start{ align-items:flex-start}
+.align-end{ align-items:flex-end}
+.align-stretch{ align-items:stretch}
+/*-- -----viết trên box mẹ có display flex----------*/
+/*-- -----viết trên box con muốn canh giữa trong 1 box mẹ có flex----------*/
+.align-self-center{align-self: center}
+.align-self-bottom{align-self:flex-end}
+.align-self-top{align-self:flex-start}
+
+.flex-column{ flex-direction: column}
+.flex-row{ flex-direction: row}
+
+
+
+
+
+
+

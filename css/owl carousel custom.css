@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+#banner .owl-dots{position: absolute; bottom: 50px; width: 100%;}
+#banner .owl-dots span{width: 15px; height: 15px;background:red }
+#banner .owl-dots .owl-dot.active span,#banner .owl-dots .owl-dot:hover span{background: #FFC46B}
+
+
+#banner .owl-nav{position: absolute; width: 100%; top: 30%;font-size: 80px;color: #fff}
+#banner .owl-nav .owl-next{position: absolute; right: 100px;text-shadow: 1px 2px 5px #ff0}
+#banner .owl-nav .owl-prev{position: absolute; left: 100px;text-shadow: 1px 2px 5px #ff0}
+#banner .owl-nav .owl-next:hover{background: none; color: #FFC46B;text-shadow: 1px 2px 5px #fff}
+#banner .owl-nav .owl-prev:hover{background: none; color: #FFC46B;text-shadow: 1px 2px 5px #fff}

@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Nunito+Sans&display=swap');
+body{ font-family: 'Nunito Sans', sans-serif; font-size:18px; color:#666}
+h1,h2{font-family: 'Gotu', sans-serif;}
+h3{font-family: 'Nunito Sans'; }
+p{ line-height: 1.5em}
+
+.bg-primary{ background-color:red}/* màu nền chính của tk*/
+.bg-xam{background: #585454}
+.bg-light{ background: #FAF3F3}
+.text-primary{color: #F80004} 
+.text-secondary{color:#FFC46B}
+.text-dark{ color: #666}
+.text-light{ color:#fff}
+.text-bold{font-size: 20px}
+a{ color:#000; text-decoration: none}
+a:hover{color:#F2C94C}
+p{ line-height: 1.5rem}
+.text-right{ text-align:right}
+.text-center{ text-align: center}
+.search-input{ padding:0 10px; height: 35px; border:none; margin-right: 0; float: left;width:80%;border-bottom:solid 2px #666}
+.btn-search{ border:none; padding:0 5px; margin-left:0 ; height:35px;  background:#fff;  float:left; cursor:pointer;border-bottom:solid 2px #666}
+/*menu*/
+nav ul{ display: flex; list-style: none; padding-top: 0; margin: 0;z-index: 99999999}
+nav ul li{ position: relative}
+nav ul li a{ padding: 10px 15px; display: block}
+nav ul li a:hover{ background-color:none; color:#FFC46B}
+nav ul ul{ position: absolute; left: 0; top: 40px; width: 200px; background: #fff; flex-direction: column; display: none}
+nav ul ul li{ border-bottom: 1px dotted #ccc}
+nav ul ul li a{ background-color:#1CDDD1; color:#fff}
+nav ul ul li a:hover{ background-color:#fff;color: #FFC46B}
+nav ul li:hover >ul{ display:block}
+.border-bottom{ border-bottom: solid 1px #666}
+/*---------------- kết thúc style cho menu------------*/
+.page-header{ min-height: 300px;
+	background-image: url("../images/pageheader-BG.jpg");
+	background-position: center center; padding-top: 50px;
+	background-repeat: no-repeat}
+main{ min-height: 500px}
+footer .menu a{ display: block; color: #eee; line-height: 35px}
+footer .menu a:hover{ color:#fff}
+.box-dvu{border:1px solid #666;border-radius: 5px}
+
+.border-radius{border-radius: 5px solid #666}
+.btn-primary{ 
+	background:#1CDDD1; color:#fff; 
+	padding: 5px 15px;border: none; 
+	border-radius: 5px}
+.btn-primary:hover{background:   #FEC36A;color: #fff;border: none}
+
+
+	
+	
+	
